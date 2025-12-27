@@ -26,7 +26,11 @@
 
 n = input("Введите количество метров: ")
 num = int(n)
-print (num * 100)
+san = (num * 100)
+dec = (num * 10)
+mill = (num * 1000)
+mil = (num * 0.000621)
+print(f"сантиметров: {san}, дециметров: {dec}, миллиметров: {mill}, миль: {mil}")
 
 
 

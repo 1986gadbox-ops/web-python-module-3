@@ -14,3 +14,4 @@ print(f"Максимальное значение: {max_value}")
 print(f"Количество отрицательных элементов: {count_negative}")
 print(f"Количество положительных элементов: {count_positive}")
 print(f"Количество нулей: {count_zero}")
+

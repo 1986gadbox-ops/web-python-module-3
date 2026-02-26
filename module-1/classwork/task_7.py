@@ -39,24 +39,24 @@
 
 
 
-def count_sentences(text):
-    sentences = text.split('.')
-    count = 0
+# def count_sentences(text):
+#     sentences = text.split('.')
+#     count = 0
     
-    for sentence in sentences:
+#     for sentence in sentences:
 
-        sentence = sentence.strip()
-        if sentence.endswith('?') or sentence.endswith('!'):
-            count += 1
-        if sentence and not (sentence.endswith('?') or sentence.endswith('!')):
-            count += 1
+#         sentence = sentence.strip()
+#         if sentence.endswith('?') or sentence.endswith('!'):
+#             count += 1
+#         if sentence and not (sentence.endswith('?') or sentence.endswith('!')):
+#             count += 1
 
-    return count
+#     return count
 
-def main():
-    text = input("Введите текст: ")
-    sentence_count = count_sentences(text)
-    print(f"Количество предложений в тексте: {sentence_count}")
+# def main():
+#     text = input("Введите текст: ")
+#     sentence_count = count_sentences(text)
+#     print(f"Количество предложений в тексте: {sentence_count}")
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()

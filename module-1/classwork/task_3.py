@@ -166,3 +166,50 @@
 
 
 
+# задача 6
+
+# text = "как дела. все хорошо на 5 с плюсом"
+
+
+
+# задача 7
+
+
+# text = input("Введите элементы списка целых чисел через пробел: ")
+# numbers = list(map(int, text.strip().split()))
+# num = int(input("Введите число для подсчёта в списке: "))
+# count = numbers.count(num)
+# print(f"Число {num} встречается в списке {count} раз(а).")
+
+
+# задача 8
+
+
+# text = input("Введите элементы списка целых чисел через пробел: ")
+# numbers = list(map(int, text.strip().split()))
+# total_sum = sum(numbers)
+# average = total_sum / len(numbers) if numbers else 0
+# print(f"Сумма элементов: {total_sum}")
+# print(f"Среднее арифметическое: {average}")
+
+
+
+# задача 9
+
+
+# numbers = [-6, -8, -5, -6, 3, -7, 4, 4, -5, 3, 3, -5, -9, 6, -2, -6, -3, 3, -4, 9, 0]
+# count_negative = sum(1 for x in numbers if x < 0)
+# num_even = 
+# print(f"количество отрицательных элементов {count_negative}")
+
+
+
+
+
+
+# функции
+
+
+
+
+
